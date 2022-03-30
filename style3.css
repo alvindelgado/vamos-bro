@@ -1,0 +1,12 @@
+/*para el primero*/
+
+.contact-form__input:first-child {
+    color: blue;
+}
+
+
+/*para el marcado*/
+
+.contact-form__input--active {
+    color: red;
+}

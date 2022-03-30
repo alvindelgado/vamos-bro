@@ -1,0 +1,51 @@
+/*todos*/
+
+* {
+    color: red;
+}
+
+
+/*tipo (button,h1,h2,p) */
+
+h1 {
+    color: blue;
+}
+
+
+/* clases(class="mostache")*/
+
+.mostache {
+    color: saddlebrown;
+}
+
+
+/*id(unico)*/
+
+#element {
+    color: seagreen;
+}
+
+
+/*atributo*/
+
+[rancio="si"] {
+    color: blue;
+}
+
+
+/*descendiente primero contenedor*/
+
+h4 p {
+    color: salmon;
+}
+
+.mostache b {
+    color: aliceblue;
+}
+
+
+/*pseudoclases cuando pasa por algo*/
+
+p:hover {
+    color: black;
+}

@@ -1,0 +1,59 @@
+/*.cont {
+    margin: auto;
+    margin-top: 50px;
+    border: 4px solid red;
+    background: orange;
+    width: 50%;
+    padding: 30px;
+}
+
+.cont {
+    width: 50%;
+}
+
+.cont img {
+    width: 300px;
+    float: right;
+    margin-left: 20px;
+}
+
+.pseudo {
+    display: block;
+}
+
+.pseudo::first-line {
+    color: aqua;
+    font-size: 5em;
+}
+
+form {
+    margin: 100px auto;
+    display: block;
+    background: red;
+    padding: 100px;
+    width: 50%;
+}
+
+input {
+    padding: 6px;
+    width: 100%;
+}
+
+input::placeholder {
+    color: red;
+}
+
+p::selection {
+    background: red;
+}
+*/
+
+b::before {
+    content: "me suscribi";
+    color: aqua;
+}
+
+b::after {
+    content: "todo tendencias";
+    color: red;
+}

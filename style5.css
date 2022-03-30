@@ -1,0 +1,32 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 100;
+    font-size: 30px;
+}
+
+h2 {
+    background-color: blueviolet;
+    display: inline-block/*para que sea en linea pero con las propiedades de un bloque*/
+    ;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding: 20px;
+    /*arriba*/
+    padding: 20px 60px;
+    /* y x*/
+    padding: 20px 30px 40px 50px;
+    /*padding es del texto a los lados de la caja*/
+    /*arriba derecha abajo izquierad*/
+    height: 30px;
+    width: 200px;
+    text-align: center;
+    margin: 50px;
+    /*mismo pading*/
+    border-radius: 50%;
+    border: 4px dashed black;
+    box-shadow: 2px 4px 15px 0 black;
+    text-shadow: 2px 2px 7px blue, 2px 2px 7px blue;
+    transform: rotate(90deg);
+}

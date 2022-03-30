@@ -1,0 +1,19 @@
+/*herarquia elementos (h1,b),atributos y clases(cuando son los 2 son por el ultimo)
+,id(identificador),estilos en linea(son los que estan modificados en el html)
+important*/
+
+h1 {
+    color: chartreuse !important
+}
+
+#nice {
+    color: aqua;
+}
+
+.mostache {
+    color: red;
+}
+
+h1 {
+    color: blueviolet;
+}
